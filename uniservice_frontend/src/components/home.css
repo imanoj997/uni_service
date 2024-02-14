@@ -1,0 +1,196 @@
+.home_page{
+    height: 200vh;
+    background-color: rgba(244, 244, 244, 0.263);
+}
+
+.landing_img{
+    height: 80vh;
+    background-image: url("/images/university.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.black_lay_over{
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.442);
+    background: linear-gradient(#000000,rgba(0, 0, 0, 0.795), #00000080);
+    position: relative;
+}
+.menu_bar{
+     background-color: #ffeaca;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding: 20px 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_bar img{
+    margin-left: 70px;
+    width: 70px;
+}
+
+.menu_bar .menu_tabs{
+    margin-right: 70px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    
+}
+
+
+
+.user{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #fdb952;
+    padding: 3px 10px;
+    color: black;
+    border-radius: 10px ;
+
+}
+
+.user img{
+    width: 25px !important;
+    height: 25px !important;
+    margin-left: 0 !important;
+}
+
+.landing_content{
+    padding-top: 80px;
+}
+
+.landing_content h1{
+    width: 60vw;
+    font-size: 80px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+
+    margin: 0 0 70px 70px;
+}
+
+.cards_section{
+    height: 70vh;
+    padding: 0 70px;
+}
+.cards_title_and_img img{
+    width: 30%;
+}
+
+.cards_title_and_img{
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+
+.cards_title{
+    width: 50%;
+    height: 40vh;
+}
+
+.cards_img{
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cards_img img{
+    width: 45%;
+}
+
+.cards_title h1{
+    font-size: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+
+}
+
+.card_sub_text{
+    margin-top: 20px;
+    background-color: rgb(250, 158, 250);
+    width: 560px;
+    height: 120px;
+    border-radius: 5px 10px 30px 50px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.outer_card_layer{
+    width: 350px;
+    height: 200px;
+    background-color: #c1f1f4;
+    border-radius: 20px;
+    padding: 20px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.info_button p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+
+.info_button img{
+    width: 13%;
+}
+
+.card1{
+    background-image: url("/images/study_room.jpg");
+}
+
+.card2{
+    background-image: url("/images/events.webp");
+}
+.card3{
+    background-image: url("/images/scholarship.jpg");
+}
+
+.info_button{
+    width: 270px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.641);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0.5px solid white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info_button img:hover{
+    transform: rotate(45deg);
+    
+}
+
+
+

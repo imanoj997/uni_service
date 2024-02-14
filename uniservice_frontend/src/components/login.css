@@ -1,0 +1,114 @@
+.login_main{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.login_left_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+}
+
+
+
+.login_left_container img{
+    width: 50%;
+
+}
+
+.login_right_container{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(248, 248, 248);
+
+}
+
+.login_right_container .inner_container{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.login_right_container img{
+    margin-bottom: 50px;
+    width: 12% ;
+}
+
+.login_right_container .textfields{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login_right_container h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5em;
+}
+
+.login_right_container h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.7em;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(121, 121, 121);
+    
+}
+
+.login_right_container input{
+    width: 400px;
+    height: 45px;
+    padding: 15px;
+    font-size: 12px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.login_right_container .forgot_pwd{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.7em;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(184, 184, 184);
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login_right_container .login_btn{
+    margin-top: 30px;
+    padding: 10px 60px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.login_right_container .create-acc-link{
+    margin-top: 150px;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+.login_right_container .create-acc-link a{
+    color: rgb(177, 0, 177);
+}
+
+.hide{
+    display: none;
+}

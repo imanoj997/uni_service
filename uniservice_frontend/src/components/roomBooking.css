@@ -1,0 +1,161 @@
+.service_page {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service_landing {
+    width: 100vw;
+    height: 60vh;
+    background-image: url("/images/library.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.service_landing .black_overlay {
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.311));
+    height: 60vh;
+    padding-top: 70px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.service_landing p {
+    width: 800px;
+    font-size: 60px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.service_sort{
+    width: 45vw;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: orange;
+    padding: 30px 50px;
+    border-radius: 100px;
+    margin-top: -80px;
+}
+
+
+.react-datepicker__input-container input {
+
+    width: 300px !important;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid green;
+    border-right: 10px solid rgb(2, 127, 35);
+    cursor: pointer;
+}
+
+.check_availability{
+    padding: 10px 30px;
+    border: 1px solid rgb(128, 84, 1);
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.service_cards {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+
+}
+
+.inner_service_cards{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    
+    column-gap: 30px;
+    row-gap: 50px;
+}
+
+.service_card {
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.service_card img {
+    width: 200px;
+    height: 300px;
+    border: 2px solid rgb(2, 110, 7);
+    border-radius: 100px;
+}
+
+.room_data {
+    padding: 20px;
+
+}
+
+.floor_num {
+    font-size: 15px;
+}
+
+.room_num {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.room_info{
+    font-size: 13px;
+    width: 250px;
+    text-align: justify;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.room_size{
+    font-size: 15px;
+    width: 250px;
+    text-align: justify;
+    font-weight: 500;
+    margin-top: 10px;
+    color: red;
+}
+
+.room_book{
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+
+.room_available{
+    background-color: rgb(47, 193, 47);
+    color: white;
+    font-size: 15px;
+    border: 1px solid rgb(1, 94, 1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.room_booked{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    cursor: not-allowed;
+    
+}
+

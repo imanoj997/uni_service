@@ -1,0 +1,28 @@
+
+[
+        {
+            "id": 1,
+            "name": "register",
+            "url":"https://uni-service-6760167bae31.herokuapp.com/auth/register/"
+        },
+        {
+            "id": 2,
+            "name": "login",
+            "url":"https://uni-service-6760167bae31.herokuapp.com/auth/login/"
+        },
+        {
+            "id": 3,
+            "name": "room_booking",
+            "url":"https://uni-service-6760167bae31.herokuapp.com/library/room_availability/"
+        },
+        {
+            "id": 4,
+            "name": "events",
+            "url":"https://uni-service-6760167bae31.herokuapp.com/events/events-list/"
+        },
+        {
+            "id": 5,
+            "name": "scholarship",
+            "url":"https://scholarship-service-5ea726d2ade8.herokuapp.com/scholarship/scholarship-list/"
+        }
+]
