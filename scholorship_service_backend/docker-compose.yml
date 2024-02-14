@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  sch_db:
+    image: postgres:latest
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    env_file:
+      - .env
+
+  web:
+    build: .
+    command: [ "python", "manage.py", "runserver", "0.0.0.0:8001" ]
+    restart: always
+    volumes:
+      - .:/app
+    ports:
+      - "8001:8001"
+    depends_on:
+      - sch_db
+    env_file:
+      - .env
+
+volumes:
+  postgres_data:
